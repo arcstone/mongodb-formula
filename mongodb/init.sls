@@ -12,7 +12,7 @@ mongodb_package:
     - humanname: MongoDB.org Repo
     - name: deb http://repo.mongodb.org/apt/{{ os }} {{ code }}/mongodb-org/{{ mdb.version }} {{ mdb.repo_component }}
     - file: /etc/apt/sources.list.d/mongodb.list
-    - keyid: 7F0CEB10
+    - keyid: EA312927
     - keyserver: keyserver.ubuntu.com
 {% endif %}
   pkg.installed:
